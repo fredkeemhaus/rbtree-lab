@@ -317,11 +317,14 @@ int main(void) {
   printf("Passed insert tests!\n");
   test_find_single(512, 1024);
   printf("Passed find tests!\n");
-  // test_erase_root(128);
-  // test_minmax_suite();
-  // test_to_array_suite();
-  // test_distinct_values();
-  // test_duplicate_values();
-  // test_multi_instance();
+  test_erase_root(128);
+  printf("Passed erase tests!\n");
+  test_minmax_suite();
+  printf("Passed minmax tests!\n");
+  test_to_array_suite();
+  printf("Passed array tests!\n");
+  test_distinct_values();
+  test_duplicate_values();
+  test_multi_instance();
   printf("Passed all tests!\n");
 }
